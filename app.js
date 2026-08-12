@@ -22,6 +22,7 @@ function randomizer(num) {
   colorBox.innerHTML = "";
   modeBtn.style.display = "none";
   resetBtn.style.display = "block"
+  colorCode.style.animation = "gradient 2s linear infinite";
 
   if(num == 3) {
     tries = 2;
