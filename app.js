@@ -54,6 +54,7 @@ function select(div) {
     for(let i = 0; i < colorBox.children.length; i++) {
       colorBox.children[i].style.backgroundColor = clickedColor;
       colorBox.children[i].style.animation = "winAnimation 1.5s linear 1 forwards"
+      colorBox.children[i].removeAttribute("onclick")
     }
     colorCode.innerText = "Congratulations!";
     colorCode.style.color = clickedColor;
